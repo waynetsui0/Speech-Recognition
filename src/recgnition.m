@@ -78,7 +78,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 fprintf('打开文件中...')
-filename = '0.wav';
+filename = '../sounds/0.wav';
 [xread, FS] = wavread(filename);
 fprintf('打开文件成功');
 fprintf('文件大小为:');
